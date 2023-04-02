@@ -1,0 +1,87 @@
+#form-div {
+    background: rgba(0, 0, 0, 0.07);
+    border-radius: 16px;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    box-shadow: 6px 6px 12px #664c4c,
+        -6px -6px 12px #ffffff;
+    display: block;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#label-user {
+    width: 10%;
+}
+
+#label-pass {
+    width: 10%;
+}
+
+#user {
+    display: block;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+#pass {
+    display: inline;
+}
+
+.check {
+    margin-left: -5%;
+    margin-top: 1rem;
+    letter-spacing: 1px;
+    text-transform: lowercase;
+    font-weight: lighter;
+    font-size: large;
+    margin-bottom: 1rem;
+}
+
+#acco {
+    margin-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+
+.password {
+    border-radius: 10px;
+    border-color: #212121;
+    font-size: small;
+    font-weight: bold;
+    text-align: center;
+    transition: all .3s ease-in-out;
+    background: none;
+    outline: none;
+}
+
+.password:focus {
+    outline: none;
+    background-color: #212121;
+    color: #e8e8e8;
+    box-shadow: 5px 5px #888888;
+}
+
+.user::placeholder,
+.password::placeholder {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.user {
+    border-radius: 10px;
+    border-color: #212121;
+    font-size: small;
+    font-weight: bold;
+    text-align: center;
+    background: none;
+    outline: none;
+    transition: all .3s ease-in-out;
+}
+
+.user:focus {
+    outline: none;
+    background-color: #212121;
+    color: #e8e8e8;
+    box-shadow: 5px 5px #888888;
+}
